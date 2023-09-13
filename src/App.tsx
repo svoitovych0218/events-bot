@@ -1,8 +1,8 @@
 import './App.css';
 
 import * as THREE from 'three';
-import React, { useRef, useState } from 'react';
-import { Canvas, useFrame, ThreeElements, useThree } from '@react-three/fiber';
+import { useRef, useState } from 'react';
+import { Canvas, ThreeElements, useThree } from '@react-three/fiber';
 
 import { IOctreeNode, IOctreeRoot } from './data';
 
